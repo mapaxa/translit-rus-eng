@@ -2,4 +2,5 @@
 .idea
 /out/
 /import/
-vendorcomposer.loc
+composer.loc
+/vendor/
