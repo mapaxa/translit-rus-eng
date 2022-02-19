@@ -1,6 +1,6 @@
 # Transliterator from ru to en
 
-Краткое описание пакета
+Пакет позволяет осуществлять транслитерацию слов с русского на английский язык.
 
 ## Requirements
 
@@ -16,6 +16,6 @@ $ composer require mapaxa/translit-rus-eng
 
 ```php
 <?php 
-$transliterator = new Transliterator();
-echo $transliterator->run('someWordInRussian');
+$transliterator = new TranslitService('мама мыла раму');
+echo $transliterator->run();
 ```
