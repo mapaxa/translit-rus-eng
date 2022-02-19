@@ -1,6 +1,6 @@
-# Transliterator from ru to en
+# Transliterator from rus to eng
 
-Краткое описание пакета
+
 
 ## Requirements
 
@@ -16,6 +16,6 @@ $ composer require mapaxa/translit-rus-eng
 
 ```php
 <?php 
-$transliterator = new Transliterator();
-echo $transliterator->run('someWordInRussian');
+$translit = new TranslitService('Мама мыла раму', ' ');
+echo $translit->run();
 ```
